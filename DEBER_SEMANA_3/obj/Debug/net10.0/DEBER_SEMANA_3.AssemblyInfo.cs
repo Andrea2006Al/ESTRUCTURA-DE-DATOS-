@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DEBER2")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DEBER_SEMANA_3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5461af25ae721dd3ca19ac486ba33d1fb95acfe1")]
-[assembly: System.Reflection.AssemblyProductAttribute("DEBER2")]
-[assembly: System.Reflection.AssemblyTitleAttribute("DEBER2")]
+[assembly: System.Reflection.AssemblyProductAttribute("DEBER_SEMANA_3")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DEBER_SEMANA_3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

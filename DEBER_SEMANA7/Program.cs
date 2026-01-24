@@ -20,7 +20,6 @@ class Program
             case 2:
                 TorresHanoi.Ejecutar();
                 break;
-
             default:
                 Console.WriteLine("Opción no válida.");
                 break;

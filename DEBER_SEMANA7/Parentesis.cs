@@ -8,7 +8,8 @@ class Parentesis
     /// </summary>
     public static void Ejecutar()
     {
-        string expresion = "{7 + (8 * 5) - [(9 - 7) + (4 + 1)]}";
+        Console.WriteLine("Ingrese la expresión matemática:");
+        string expresion = Console.ReadLine();
 
         if (EstaBalanceada(expresion))
             Console.WriteLine("Fórmula balanceada.");
@@ -17,7 +18,8 @@ class Parentesis
     }
 
     /// <summary>
-    /// Verifica si los símbolos están balanceados usando una pila
+    /// Verifica si los paréntesis, llaves y corchetes están balanceados
+    /// utilizando una pila
     /// </summary>
     static bool EstaBalanceada(string expresion)
     {
@@ -25,15 +27,19 @@ class Parentesis
 
         foreach (char c in expresion)
         {
+            // Símbolos de apertura
             if (c == '(' || c == '{' || c == '[')
+            {
                 pila.Push(c);
-
+            }
+            // Símbolos de cierre
             else if (c == ')' || c == '}' || c == ']')
             {
                 if (pila.Count == 0)
                     return false;
 
                 char apertura = pila.Pop();
+
                 if (!EsParCorrecto(apertura, c))
                     return false;
             }
@@ -42,10 +48,13 @@ class Parentesis
         return pila.Count == 0;
     }
 
-    static bool EsParCorrecto(char a, char c)
+    /// <summary>
+    /// Comprueba si el símbolo de apertura coincide con el de cierre
+    /// </summary>
+    static bool EsParCorrecto(char apertura, char cierre)
     {
-        return (a == '(' && c == ')') ||
-               (a == '{' && c == '}') ||
-               (a == '[' && c == ']');
+        return (apertura == '(' && cierre == ')') ||
+               (apertura == '{' && cierre == '}') ||
+               (apertura == '[' && cierre == ']');
     }
 }

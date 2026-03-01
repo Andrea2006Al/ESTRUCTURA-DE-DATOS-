@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ESTRUCTURADEDATOS(B)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PRACTICO_EXPERIMENTAL_03")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+802082b89543cce069098c659fa6fc53b5262b60")]
-[assembly: System.Reflection.AssemblyProductAttribute("ESTRUCTURADEDATOS(B)")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ESTRUCTURADEDATOS(B)")]
+[assembly: System.Reflection.AssemblyProductAttribute("PRACTICO_EXPERIMENTAL_03")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PRACTICO_EXPERIMENTAL_03")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

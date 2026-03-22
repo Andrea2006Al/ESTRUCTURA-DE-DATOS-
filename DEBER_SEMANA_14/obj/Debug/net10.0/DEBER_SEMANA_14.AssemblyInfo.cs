@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ESTRUCTURADEDATOS(B)")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DEBER_SEMANA_14")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31d2b891c2d43384987b30beb3cfc4b3f3c7120c")]
-[assembly: System.Reflection.AssemblyProductAttribute("ESTRUCTURADEDATOS(B)")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ESTRUCTURADEDATOS(B)")]
+[assembly: System.Reflection.AssemblyProductAttribute("DEBER_SEMANA_14")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DEBER_SEMANA_14")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
